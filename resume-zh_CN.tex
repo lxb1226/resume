@@ -21,7 +21,7 @@
 }
 
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{西安电子科技大学}, 西安}{2020 -- 至今}
+\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2020 -- 至今}
 \textit{在读硕士研究生}\ 计算机技术, 预计 2022 年 6 月毕业
 \datedsubsection{\textbf{东华理工大学}, 南昌, 江西}{2016 -- 2020}
 \textit{学士}\ 信息与计算科学
@@ -29,17 +29,20 @@
 \section{\faUsers\ 实习/项目经历}
 \datedsubsection{\textbf{广州广哈通信有限公司}, 广州}{2021年3月 -- 至今}
 \role{实验室项目} {音频质量优化项目}
-\begin{itemize}
-    \item 将webrtc中的vad模块抽离出来，并编译到公司平台上。
-    \item 使用pytorch训练深度学习算法，最终在数据集上达到了85\%的准确率。
-    \item 将深度学习算法转化成C++代码，并将其移植到公司平台上。
-\end{itemize}
+\begin{onehalfspacing}
+    在该项目中我主要负责vad（语音端点检测）模块。主要工作为：
+    \begin{itemize}
+        \item 将webrtc中的vad模块抽离出来，并编译到公司平台上。
+        \item 使用pytorch训练深度学习算法，最终在数据集上达到了85\%的准确率。
+        \item 将深度学习算法转化成C++代码，并将其移植到公司平台上。
+    \end{itemize}
+\end{onehalfspacing}
+
 
 \datedsubsection{\textbf{C++web服务器开发}}{2021年6月 -- 至今}
 \role{C++, Linux}{个人项目}
 \begin{onehalfspacing}
     使用C++11完成的web服务器.
-    项目地址
     \begin{itemize}
         \item 利用IO复用技术Epoll与线程池实现多线程的Reactor高并发模型
         \item 利用状态机解析HTTP请求报文，实现处理静态资源的请求
@@ -53,10 +56,8 @@
 \begin{onehalfspacing}
     使用C写的json解析器，能够解析标准的json格式并且字符串化。
     \begin{itemize}
-        \item 手写的递归下降解析器
-        \item 符合标准的 JSON 解析器和生成器
-        \item 目前仅支持 UTF-8 JSON 文本
-        \item 目前仅支持以 double 存储 JSON number 类型
+        \item 使用递归下降解析器编写了符合ECMA-404标准的JSON解析器以及生成器
+        \item 该json解析器支持 UTF-8 JSON 文本和以double存储JSON number类型
     \end{itemize}
 \end{onehalfspacing}
 
@@ -70,7 +71,7 @@
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-    \item 熟悉python，了解Java，C++/C，熟悉基本的数据结构和算法，有良好的编程风格
+    \item 熟悉python，了解C++/C，熟悉基本的数据结构和算法，有良好的编程风格
     \item 掌握基本的linux命令
 \end{itemize}
 
